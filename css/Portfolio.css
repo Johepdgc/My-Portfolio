@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'New York Extra Large';
+  src: url('fonts/NewYorkExtraLarge-Regular.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: 'New York Extra Large', sans-serif;
+}
+
+    
