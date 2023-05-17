@@ -1,14 +1,49 @@
 @font-face {
-  font-family: 'New York Extra Large';
+  font-family: 'NewYorkExtraLarge-Semibold';
   src: url('../fonts/NewYorkExtraLarge-Semibold.otf');
   font-weight: 800;
   font-style: normal;
 }
-
+@font-face {
+  font-family:'NewYorkExtraLarge-Black';
+  src: url('../fonts/NewYorkExtraLarge-Black.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family:'NewYorkExtraLarge-Bold';
+  src: url('../fonts/NewYorkExtraLarge-Bold.otf');
+  font-weight: 800;
+  font-style: normal;
+}
 body {
-  font-family: 'New York Extra Large', sans-serif;
+  font-family: 'NewYorkExtraLarge-Semibold', sans-serif;
   background-image: linear-gradient(180deg,#0B1320, #1C3F60);
-  color: #AFC1D0
+  color: #AFC1D0;
+  letter-spacing: 0.5px;
+}
+h1 {
+  font-family:'NewYorkExtraLarge-Black', sans-serif;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family:'NewYorkExtraLarge-Black', sans-serif;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  font-family:'NewYorkExtraLarge-Bold', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
 }
 .solid-nav {
   background-color: #0B1320;
