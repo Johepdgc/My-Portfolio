@@ -2,75 +2,63 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="30.753506mm"
-   height="30.723923mm"
-   viewBox="0 0 30.753506 30.723923"
+   width="22.531105mm"
+   height="10.568249mm"
+   viewBox="0 0 22.531105 10.568249"
    version="1.1"
    id="svg5"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="JDGC.svg"
+   inkscape:export-filename="JDGC.svg"
+   inkscape:export-xdpi="750"
+   inkscape:export-ydpi="750"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showborder="false"
+     inkscape:zoom="11.548948"
+     inkscape:cx="41.302463"
+     inkscape:cy="19.395706"
+     inkscape:window-width="1440"
+     inkscape:window-height="804"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(2.8090057e-8,0.2319295)">
-    <g
-       id="g5802"
-       transform="matrix(0.31543386,0,0,0.31543386,-8.2250597,-11.937667)"
-       style="stroke-width:3.17024">
-      <ellipse
-         style="fill:#edf2f3;fill-opacity:1;stroke:none;stroke-width:4.19397;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path840"
-         cx="74.823334"
-         cy="85.811012"
-         rx="48.747948"
-         ry="48.701054" />
-      <g
-         id="g5307"
-         transform="translate(6.145113,-13.768204)"
-         style="stroke-width:3.17024">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#edf2f3;fill-opacity:1;stroke:none;stroke-width:33.5516;stroke-linecap:round;stroke-linejoin:round"
-           x="40.197147"
-           y="108.64953"
-           id="text3444"><tspan
-             id="tspan3442"
-             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5289b5;fill-opacity:1;stroke-width:33.5516"
-             x="40.197147"
-             y="108.64953">D</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1f3541;fill-opacity:1;stroke:none;stroke-width:33.5506;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-           x="34.54578"
-           y="108.64953"
-           id="text3440"><tspan
-             id="tspan3438"
-             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1f3541;fill-opacity:1;stroke-width:33.5506;stroke-dasharray:none"
-             x="34.54578"
-             y="108.64953">J</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5289b5;fill-opacity:1;stroke:none;stroke-width:33.5516;stroke-linecap:round;stroke-linejoin:round"
-           x="-104.92004"
-           y="108.64953"
-           id="text3452"
-           transform="scale(-1,1)"><tspan
-             id="tspan3450"
-             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5289b5;fill-opacity:1;stroke-width:33.5516"
-             x="-104.92004"
-             y="108.64953">C</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1f3541;fill-opacity:1;stroke:none;stroke-width:33.5516;stroke-linecap:round;stroke-linejoin:round"
-           x="58.512547"
-           y="108.64953"
-           id="text3448"><tspan
-             id="tspan3446"
-             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:36px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1f3541;fill-opacity:1;stroke-width:33.5516"
-             x="58.512547"
-             y="108.64953">G</tspan></text>
-      </g>
-    </g>
+     transform="translate(-43.383248,-27.008105)">
+    <path
+       d="m 54.577237,31.022487 c 0,-2.528395 -1.962833,-3.875764 -5.095604,-3.875764 H 45.68904 v 0.349318 c 0.571107,0.133074 0.70418,0.288326 0.70418,0.792896 v 5.722158 c 0,0.50457 -0.133073,0.659823 -0.70418,0.792896 v 0.349318 h 3.881309 c 2.800087,0 5.006888,-1.546979 5.006888,-4.130822 z m -2.966429,0.138619 c 0,2.140264 -0.898246,3.531991 -2.328785,3.581893 l -0.188521,0.0055 v -7.197055 l 0.188521,0.0055 c 1.502621,0.0499 2.328785,1.569158 2.328785,3.604073 z"
+       id="path5532"
+       style="font-weight:800;font-size:11.3556px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';fill:#afc1d0;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m 47.036408,33.367907 v -5.07897 c 0,-0.50457 0.133074,-0.659822 0.709725,-0.792896 v -0.349318 h -4.114187 v 0.349318 c 0.576652,0.133074 0.70418,0.288326 0.70418,0.792896 v 5.328483 c 0,2.145809 -0.327138,2.955339 -1.253107,3.687243 l 0.182975,0.271691 c 2.716916,-1.064587 3.770414,-2.001646 3.770414,-4.208447 z"
+       id="path5529"
+       style="font-weight:800;font-size:11.3556px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';mix-blend-mode:normal;fill:#1c3f60;fill-opacity:1;stroke:#1c3f60;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m 65.941661,31.161106 c 0,2.644834 -2.084817,4.130821 -4.818367,4.130821 -1.025775,0 -1.962833,-0.194065 -2.428591,-0.499025 l -0.03881,-2.539485 h 0.338229 c 0.30496,1.430539 1.047953,2.561664 2.001646,2.561664 1.269742,0 1.973923,-1.72441 1.973923,-3.648431 0,-2.195711 -0.754083,-3.681698 -1.968378,-3.681698 -1.00914,0 -1.741044,1.181027 -1.996102,2.495127 h -0.343773 l 0.03881,-2.517306 c 0.493481,-0.293871 1.402816,-0.454668 2.42859,-0.454668 2.689193,0 4.812823,1.469353 4.812823,4.153001 z"
+       id="path5526"
+       style="font-weight:800;font-size:11.3556px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';fill:#afc1d0;fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m 51.608545,31.205463 c 0,2.406412 1.802037,4.086464 4.624302,4.086464 1.236474,0 2.456314,-0.255057 3.15495,-0.737449 v -2.395322 c 0,-0.465757 0.121984,-0.626554 0.643188,-0.709725 v -0.349317 h -3.687243 v 0.349317 c 0.554473,0.08317 0.676457,0.243968 0.676457,0.709725 v 2.461859 c -0.0998,0.10535 -0.349318,0.194066 -0.643189,0.194066 -1.175482,0 -1.796491,-1.691142 -1.796491,-3.648431 0,-2.195711 0.70418,-3.681698 1.985012,-3.681698 1.059043,0 1.813126,1.181027 2.101451,2.495127 h 0.338229 l -0.03881,-2.517306 c -0.482392,-0.293871 -1.441629,-0.454668 -2.517306,-0.454668 -2.683648,0 -4.840547,1.413906 -4.840547,4.197358 z"
+       id="path5523"
+       style="font-weight:800;font-size:11.3556px;font-family:'New York Extra Large';-inkscape-font-specification:'New York Extra Large, Ultra-Bold';fill:#1c3f60;stroke-width:0.13229167;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1;stroke-dasharray:none;stroke:#1c3f60;stroke-opacity:1" />
   </g>
 </svg>

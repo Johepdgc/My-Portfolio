@@ -1,12 +1,29 @@
 @font-face {
   font-family: 'New York Extra Large';
-  src: url('fonts/NewYorkExtraLarge-Regular.otf');
+  src: url('../fonts/NewYorkExtraLarge-Semibold.otf');
   font-weight: 800;
   font-style: normal;
 }
 
 body {
   font-family: 'New York Extra Large', sans-serif;
+  background-image: linear-gradient(180deg,#0B1320, #1C3F60);
+  color: #AFC1D0
+}
+.solid-nav {
+  background-color: #0B1320;
+  color: #AFC1D0;
+  position: relative; /* Cambia esta línea */
 }
 
-    
+.solid-nav a {
+  color: #AFC1D0; /* Color principal de los enlaces */
+}
+
+.solid-nav a:hover {
+  color: #FFFFFF; /* Color de los enlaces al pasar el cursor sobre ellos */
+}
+
+.solid-nav a.active {
+  color: #1C3F60; /* Color del enlace activo (página actual) */
+}
