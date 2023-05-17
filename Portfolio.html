@@ -24,10 +24,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="#">Me</a>
-            <a class="nav-link" href="#">Skills</a>
-            <a class="nav-link" href="#">Education</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#about-me-id">Me</a>
+            <a class="nav-link" href="#skills-id">Skills</a>
+            <a class="nav-link" href="#projects-id">Projects</a>
+            <a class="nav-link" href="#education-id">Education</a>
+            <a class="nav-link" href="#contact-id">Contact</a>
           </div>
         </div>
       </div>
@@ -37,7 +38,7 @@
     <div class="about-me">
         <div class="container-fluid">
             <div class="col-12">
-                <h1>Who am I?</h1>
+                <h1 id="about-me-id">Who am I?</h1>
             </div>
         </div>
         <div class="container-lg">
@@ -62,15 +63,15 @@
         </div>
     </div>
     <div class="skills">
-        <div class="row">
+        <div class="container-fluid">
             <div class="col-12">
-                <h1>What can I do?</h1>
+                <h1 id="skills-id">What can I do?</h1>
             </div>
         </div>
         <div class="container-fluid">
             <div class="col-12">
                 <ul class="list-unstyled">
-                    <li><h4>Some technical skills</h4></li>
+                    <li><h4>Technical skills</h4></li>
                       <ul>
                         <li>Programming in C#/.NET 
                           <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
@@ -87,7 +88,6 @@
                       </ul>
                     </li>
                 </ul>
-                <h2 class="text-center">How am I?</h2>
                 <ul class="list-unstyled">
                     <li><h4>Soft skills</h4></li>
                       <ul>
@@ -111,37 +111,75 @@
         </div>
     </div>
     <div class="projects">
-      <div class="row">
+      <div class="container-fluid">
           <div class="col-12">
-              <h1 class="text-center">Some things I made...</h1>
-          </div>
-      </div>
-    </div>
-    <div class="education">
-      <div class="row">
-          <div class="col-12">
-              <h1 class="text-center">My knowledge is from...</h1>
+              <h1 id="projects-id" class="text-center">Some things I made...</h1>
           </div>
       </div>
       <div class="container-fluid">
-        <div>
+        <div class="col-12">
+          <div class="card-group">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="education">
+      <div class="container-fluid">
           <div class="col-12">
-            <figure>
-              <blockquote class="blockquote">
-                <p>Computer Systems and Networking Engineering</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                Gerardo Barrios University <cite title="Source Title">still in course</cite>
-              </figcaption>
-            </figure>
-            <figure>
-              <blockquote class="blockquote">
-                <p>Front-end Development</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                KODIGO in <cite title="Source Title">2023</cite>
-              </figcaption>
-            </figure>
+              <h1 id="education-id" class="text-center">My knowledge is from...</h1>
+          </div>
+      </div>
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="media/kodigo.jpeg" class="rounded" alt="kodigo">
+            <div class="card-body">
+              <h5 class="card-title">KODIGO</h5>
+              <p class="card-text">Front-end Developer</p>
+              <p class="card-text"><em>2023</em></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="media/ugb.jpeg" class="rounded" alt="ugb">
+            <div class="card-body">
+              <h5 class="card-title">Gerardo Barrios University</h5>
+              <p class="card-text">Computer Systems and Networking Engineering</p>
+              <p class="card-text"><em>still in course</em></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -150,7 +188,7 @@
     <div class="contact">
       <div class="row">
         <div class="col-12">
-          <h1 class="text-center">Know me yourself!</h1>
+          <h1 id="contact-id" class="text-center">Know me yourself!</h1>
         </div>
       </div>
       <div class="container-fluid">
