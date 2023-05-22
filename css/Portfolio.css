@@ -1,71 +1,91 @@
+/* Reset Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'NewYorkExtraLarge-Semibold', sans-serif;
+  text-decoration: none;
+}
+/* Font Face Declarations */
 @font-face {
   font-family: 'NewYorkExtraLarge-Semibold';
   src: url('../fonts/NewYorkExtraLarge-Semibold.otf');
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
-  font-family:'NewYorkExtraLarge-Black';
+  font-family: 'NewYorkExtraLarge-Black';
   src: url('../fonts/NewYorkExtraLarge-Black.otf');
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
-  font-family:'NewYorkExtraLarge-Bold';
+  font-family: 'NewYorkExtraLarge-Bold';
   src: url('../fonts/NewYorkExtraLarge-Bold.otf');
   font-weight: 800;
   font-style: normal;
 }
+
+/* Body Styles */
 body {
   font-family: 'NewYorkExtraLarge-Semibold', sans-serif;
-  background-image: linear-gradient(180deg,#0B1320, #1C3F60);
+  background-image: linear-gradient(180deg, #0B1320, #1C3F60);
   color: #AFC1D0;
   letter-spacing: 0.5px;
+  line-height: 1.6;
 }
-h1 {
-  font-family:'NewYorkExtraLarge-Black', sans-serif;
-  font-style: normal;
-  text-align: center;
-  letter-spacing: 0.5px;
-  margin: 0;
-  padding: 0;
-}
-h2 {
-  font-family:'NewYorkExtraLarge-Black', sans-serif;
-  font-style: normal;
-  text-align: center;
-  letter-spacing: 0.5px;
-  margin: 0;
-  padding: 0;
-}
-h4 {
-  font-family:'NewYorkExtraLarge-Bold', sans-serif;
-  font-style: normal;
-  letter-spacing: 0.5px;
-  margin: 0;
-  padding: 0;
-}
+
+/* Header Styles */
+h1,
+h2,
+h4,
 h5 {
-  font-family:'NewYorkExtraLarge-Black', sans-serif;
+  font-family: 'NewYorkExtraLarge-Black', sans-serif;
   font-style: normal;
   letter-spacing: 0.5px;
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'NewYorkExtraLarge-Bold', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* Navigation Styles */
 .solid-nav {
   background-color: #0B1320;
   color: #AFC1D0;
-  position: relative; /* Cambia esta línea */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .solid-nav a {
-  color: #AFC1D0; /* Color principal de los enlaces */
+  color: #AFC1D0; /* Main link color */
 }
 
 .solid-nav a:hover {
-  color: #FFFFFF; /* Color de los enlaces al pasar el cursor sobre ellos */
+  color: #FFFFFF; /* Link hover color */
 }
 
 .solid-nav a.active {
-  color: #1C3F60; /* Color del enlace activo (página actual) */
+  color: #1C3F60; /* Active link color (current page) */
 }
