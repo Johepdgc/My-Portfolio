@@ -16,13 +16,13 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg solid-nav">
+    <nav class="solid-nav navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="media/JDGC.svg" alt="my logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse d-flex flex-row-reverse nav nav-underline" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link" href="#about-me-id">Me</a>
             <a class="nav-link" href="#skills-id">Skills</a>
@@ -36,34 +36,24 @@
   </header>
   <main>
     <div class="about-me">
-        <div class="container-fluid">
-            <div class="col-12">
-                <h1 id="about-me-id">Who am I?</h1>
-            </div>
+        <div id="about-me-id">
+          <h1><br>I'm Johep<br>
+            it's a<br>
+            pleasure<br>
+          </h1>
         </div>
         <div class="container-lg">
             <div class="col-12">
-                <p class="text-center"><br>Hey there! My name is Johep and I'm from El Salvador. Currently I'm a college student in my third-year on Computer Systems and Networking Engineering, passionate about technology and the world of engineering. 
-                    
-                    Rigth now, I am completing a front-end development bootcamp from KODIGO and seeking opportunities to apply my skills and knowledge in a professional setting. I really enjoy to learn new things especially the ones that i can apply in a work enviroment. 
-                    
-                    Lately I've been learning about proyect management, it's a field that encounter really interesting and likes me, and of course to be able to grow more professionally and have more high valueble skills.<br>
-
-                    <br>I have experience in a variety of programming languages, including C#/.NET, Kotlin, Python and CSS, as well as intermediate knowledge in HTML and SQL databases. Additionally, I possess skills in technical computer support, basic and minimalist vector design for logos, and a C1 level of English proficiency.
-                    
-                    I consider myself an analytical, problem-solving, flexible, a planner, and organized person. I am capable of taking on leadership roles and making important decisions, and I always strive to approach challenges with an innovative and creative mindset. 
-                    
-                    I am also adaptable and have a quick learning ability, allowing me to face new challenges and environments with ease. I deeply enjoy learning and my professional growth is a top priority. I am responsible and respectful in all aspects of my life, both professionally and personally.<br>
-                    
-                    <br>My goal is to continue developing my skills and knowledge in computer systems and networking engineering and to make a significant contribution to challenging and innovative projects in the field of technology.
-                    
-                    Feel free to explore my portfolio to learn more about my projects and experiences, and please do not hesitate to contact me if you have any questions or if you are interested in working with me. I'm will be very exited to meet you!.<br>
+              <!-- <img src="media/yo.jpg" class="rounded float-start" alt="..."> -->
+                <p class="text-center"><br>Hey there! I'm a college student in my third-year on Computer Systems and Networking Engineering, passionate about technology and the world of engineering. 
+                    Looking for elavating my habilities and strength them. I love the gym life, cars, and wine.<br>Feel free to explore my portfolio to learn more about my projects and experiences, 
+                    and please do not hesitate to contact me if you have any questions or if you are interested in working with me. I'm will be very exited to meet you!.<br>
                 </p>
             </div>
         </div>
     </div>
     <div class="skills">
-        <div class="container-fluid">
+        <div id="my-skills">
             <div class="col-12">
                 <h1 id="skills-id">What can I do?</h1>
             </div>
@@ -73,11 +63,7 @@
                 <ul class="list-unstyled">
                     <li><h4>Technical skills</h4></li>
                       <ul>
-                        <li>Programming in C#/.NET 
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                            <div class="progress-bar bg-success" style="width: 25%"></div>
-                          </div>
-                        </li>
+                        <li>Programming in C#/.NET</li>
                         <li>Programming in Kotlin</li>
                         <li>Programming in CSS</li>
                         <li>Programming in Python</li>
@@ -88,8 +74,9 @@
                       </ul>
                     </li>
                 </ul>
-                <ul class="list-unstyled">
-                    <li><h4>Soft skills</h4></li>
+                <div class="d-flex justify-content-end">
+                  <ul class="list-unstyled">
+                    <li><h4 >Soft skills</h4></li>
                       <ul>
                         <li>Analytical</li>
                         <li>Problem-solving</li>
@@ -107,6 +94,7 @@
                       </ul>
                     </li>
                 </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -161,7 +149,7 @@
       </div>
       <div class="container-fluid d-flex justify-content-center">
         <div class="col-4">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
             <img src="media/kodigo.jpeg" class="rounded" alt="kodigo">
             <div class="card-body">
               <h5 class="card-title">KODIGO</h5>
@@ -191,7 +179,7 @@
           <h1 id="contact-id" class="text-center">Know me yourself!</h1>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="text-center">
         <div class="col-12">
           <dl class="row">
             <dt class="col-sm-3">e-Mail</dt>
