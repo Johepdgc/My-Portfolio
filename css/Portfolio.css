@@ -70,6 +70,23 @@ body {
   padding: 0 10%;
   margin-left: 10px;
 }
+
+.skills { 
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  margin-left: 10px;
+}
+
+.projects { 
+  height: 125vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  margin-left: 10px;
+}
+
 .about-me-id h1 {
   font-size: 50px
 }
@@ -83,6 +100,26 @@ body {
   margin: 20px 0 40px;
   width: 600px;
 }
+
+.my-skills h1 {
+  font-size: 75px;
+  color: #5C97B8;
+}
+.my-skills h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #AFC1D0;
+}
+.my-skills p {
+  font-size: 20px;
+  margin: 20px 0 40px;
+  width: 600px;
+}
+
+.my-skills .img {
+  margin-left: -10px;
+}
+
 .btn {
   background-color: #FFFFFF;
   color: #0B1320;
@@ -132,3 +169,4 @@ h5
   margin-bottom: 10px; /* Añade un espacio entre la imagen y el párrafo de texto */
   margin-right: 10px;
 }
+
