@@ -96,11 +96,12 @@ body {
 }
 
 .contact { 
-  height: 75vh;
+  height: 125vh;
   display: flex;
   align-items: center;
   padding: 0 10%;
   margin-left: 10px;
+  margin-bottom: -100px;
 }
 
 .about-me-id h1 {
@@ -148,6 +149,37 @@ body {
   margin-bottom: 30px;
 }
 
+.my-education .card {
+  margin-bottom: 30px;
+  margin: auto;
+}
+
+.my-contacts h1 {
+  font-size: 65px;
+  color: #AFC1D0;
+  margin-bottom: 30px;
+}
+
+.my-contacts p {
+  font-size: 20px;
+  margin: 20px 0 40px;
+  width: 600px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Espacio entre los contact-items */
+}
+
+.contact-item span {
+  margin-left: 20px; /* Espacio entre el icono y el texto */
+  margin-bottom: 5px;
+  font-size: 20px;
+  width: 600px;
+  font-weight: 800;
+  color: #bdd3df;
+}
 .btn {
   background-color: #AFC1D0;
   color: #0B1320;
@@ -182,9 +214,6 @@ h5
   justify-content: space-between;
   align-items: center;
 }
-
-/*photo styles*/
-.circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
 
 .image-container {
   text-align: start;
