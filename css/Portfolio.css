@@ -80,7 +80,23 @@ body {
 }
 
 .projects { 
-  height: 125vh;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  margin-left: 10px;
+}
+
+.education { 
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  margin-left: 10px;
+}
+
+.contact { 
+  height: 75vh;
   display: flex;
   align-items: center;
   padding: 0 10%;
@@ -120,11 +136,23 @@ body {
   margin-left: -10px;
 }
 
+.my-projects h1 {
+  font-size: 65px;
+  color: #AFC1D0;
+  margin-bottom: 30px;
+}
+
+.my-education h1 {
+  font-size: 65px;
+  color: #AFC1D0;
+  margin-bottom: 30px;
+}
+
 .btn {
-  background-color: #FFFFFF;
+  background-color: #AFC1D0;
   color: #0B1320;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
   font-size: 20px;
   font-weight: 800;
@@ -136,7 +164,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #5C97B8;
+  background-color: #FFFFFF;
   color: #0B1320;
 }
 
@@ -169,4 +197,3 @@ h5
   margin-bottom: 10px; /* Añade un espacio entre la imagen y el párrafo de texto */
   margin-right: 10px;
 }
-
